@@ -7,9 +7,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan("com.gojek.meetingscheduler")
-@EnableJpaRepositories("com.gojek.meetingscheduler")
-@EntityScan("com.gojek.meetingscheduler")
+@ComponentScan("com.xyz.meetingscheduler")
+@EnableJpaRepositories("com.xyz.meetingscheduler")
+@EntityScan("com.xyz.meetingscheduler")
 public class MeetingschedulerApplication {
 
     public static void main(String[] args) {
